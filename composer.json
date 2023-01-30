@@ -1,0 +1,21 @@
+{
+    "name": "205648389/phppro",
+    "description": "php-profissional",
+    "authors": [
+        {
+            "name": "Rafaelly",
+            "email": "rafaellycmr@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "app/helpers/constants.php",
+            "app/router/router.php"
+        ],
+        "psr-4": {
+            "app\\":"app"
+        }
+        
+    }
+}
